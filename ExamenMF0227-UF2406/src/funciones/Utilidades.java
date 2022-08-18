@@ -1,8 +1,17 @@
 package funciones;
-
+/**
+ * Clase de utilidades que devuelve las siguientes funciones
+ * devulveNota
+ * @author Manuel López
+ *
+ */
 public class Utilidades {
 
-	
+	/**
+	 * Método que nos devuelve la nota del alumno
+	 * @param nota nota del alumno
+	 * @return String con la calificación alumno
+	 */
 
 	public String devuelveNota(double nota) {
 		String descripcion = "Matrícula";
